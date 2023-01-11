@@ -1,1 +1,5 @@
-# AI-as-an-Art-Historian-Binary-Classification
+Here, I've put together a binary classification model that can classify artworks into two different art movements: Renaissance and Romanticism. I sourced the dataset by using [WikiArt Retriever](https://github.com/lucasdavid/wikiart) by Lucas David and then I uploaded it to Kaggle [here](https://www.kaggle.com/datasets/sivarazadi/wikiart-art-movementsstyles).
+
+I built the model using some deep learning techniques and a pre-trained ResNet50V2 model. To make it more accurate, I applied image augmentation techniques such as rescaling, rotation, zoom, and flipping to improve the accuracy of the model. I also balanced the data using class weights and included callbacks like ReduceLROnPlateau and EarlyStopping to optimize the training process.
+
+It's a great starting point for anyone who wants to adapt the project for their own use with different datasets and classification tasks. It's not perfect yet, but you can improve it by adding a multi-class classification model or further developing its accuracy.
